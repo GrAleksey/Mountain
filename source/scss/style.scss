@@ -1,0 +1,179 @@
+body {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 600;
+}
+
+h2{
+				font-size: 52px;
+				line-height: 115%;
+}
+
+.navbar-brand, .nav-item a{
+	margin-top: 40px;
+	color:white !important;
+}
+
+.header{
+	background: url(../img/header/rectangle.jpg) no-repeat center;
+	height: 650px;
+	padding: 0;
+
+	.navbar-brand {
+		margin-right: 50px;
+	}
+	
+	a{
+		margin-right: 10px;
+	}
+	.header__nav__right {
+		li:not(:first-of-type) a{
+			text-align: center;
+			border-radius: 50%;
+			width: 35px;
+			height: 35px;
+			background: rgba(252, 252, 252, 0.4);
+		}
+}
+	.promo{
+			text-align: center;
+			margin-top: 150px;
+			display: flex;
+			flex-direction: column;
+			align-items:center;
+			h1{
+			font-size: 98px;
+			line-height: 145px;
+			color: white;
+			}
+	.promo__details{
+			padding: 12px;
+			margin-top: 20px;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			color: white;
+			width: 170px;
+			height: 45px;
+			border: 2px solid #FCFCFC;
+
+			}
+		}
+
+}
+
+.map {
+	padding-top: 140px;
+	.container {
+			h2{
+				max-width: 472px;
+			}
+			.map__text{
+				padding-top: 50px;
+				font-size: 18px;
+				line-height: 150%;
+				max-width: 350px;
+			}
+		.map__img{
+			background: url(../img/main/map.svg) no-repeat center;
+		}
+	}
+}
+
+.tours{
+	h2{
+		padding-top: 140px;
+		text-align: center;
+	}
+	.container{
+			.tours__items{
+			min-width: 370px;
+			min-height: 326px;
+			margin-top: 80px; 
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+				.mountain-info,.mountain-level{
+				margin-left: 40px;
+				margin-bottom: 24px;
+				}
+				h5{
+				margin-left: 40px;
+				font-weight: 500;
+				font-size: 26px;
+				line-height: 115%;
+				padding-bottom: 25px;
+				}
+				.mountain-location {
+					display: flex;
+					justify-content:space-between;
+					padding: 40px;
+					.tab a{
+						text-align: center;
+						border-radius: 50%;
+						width: 35px;
+						height: 35px;
+						background: rgba(252, 252, 252, 0.4);
+					}
+
+				}
+			}
+				.beluga {
+					background:linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/beluga.jpg) no-repeat center;
+
+				}
+
+				.elbrus{
+					background:linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/elbrus.jpg) no-repeat center;
+				}
+				.kilimanjaro{
+					background:linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/kilimanjaro.jpg) no-repeat center;
+				}
+	}
+}
+
+.table-tours{
+	text-align: center;
+	background: url(../img/main/Russia.jpg) no-repeat center;
+	height: 757px;
+	color: white;
+	margin-top: 110px;
+	padding-top:100px; 
+	.table__table{
+		margin-top: 60px;
+		th{
+			color:white;
+			border-bottom: 1px solid #45545E;
+			font-size: 18px;
+			line-height: 140%;
+			color: #A7AEB4;
+		}
+		td{
+			color:white;
+			border-bottom: 1px solid #45545E;
+			
+		}
+
+	}	
+		.table__details{
+			padding: 12px;
+			margin: auto;
+			margin-top: 	50px;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			color: white;
+			width: 170px;
+			height: 45px;
+			border: 2px solid #FCFCFC;
+			}
+}
