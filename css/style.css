@@ -25,7 +25,7 @@ h2 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000326}}
 .header {
-  background: url(../img/header/rectangle.jpg) no-repeat center;
+  background: url(../img/header/Rectangle.jpg) no-repeat center;
   height: 650px;
   padding: 0;
   width: 100%; }
