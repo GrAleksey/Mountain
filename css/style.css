@@ -27,7 +27,8 @@ h2 {
 .header {
   background: url(../img/header/rectangle.jpg) no-repeat center;
   height: 650px;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000331}}
   .header .navbar-brand {
     margin-right: 50px; }
