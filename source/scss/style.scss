@@ -14,6 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2{
+
 				font-size: 52px;
 				line-height: 115%;
 }
@@ -176,4 +177,61 @@ h2{
 			height: 45px;
 			border: 2px solid #FCFCFC;
 			}
+}
+
+.blog{
+	margin-top: 110px;
+	h2{
+		text-align: center;
+	}
+	span{
+		font-size: 14px;
+		line-height: 140%;
+		color: #626F77;
+	}
+	.blog__info{
+		margin-top: 80px;
+	}
+	.blog__left{
+		ul{
+			height: 100%;
+			.list-group-item:not(:last-of-type){
+				padding: 30px;
+				font-size: 18px;
+				line-height: 140%;
+				height: 20%;
+				border-bottom: 1px solid #061B28;
+
+				a{
+					color: #061B28;
+				}
+			}
+			.btn{
+				width: 100%;
+				background-color: #EC5118;
+				color: white;
+			}
+		}
+		span{
+			margin-top: 30px;
+		}
+		.list-group-item-action:hover:not(:last-of-type){
+			background-color: #061B28;
+			a{
+				color:white;
+				text-decoration: none;
+			}
+		}
+	}
+	.blog__text{
+		margin-top: 40px;
+		h3{
+			margin-top: 20px;
+			margin-bottom: 35px;
+		}
+		p{
+			font-size: 16px;
+			line-height: 150%;
+		}
+	}
 }

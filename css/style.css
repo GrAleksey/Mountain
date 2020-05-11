@@ -1,165 +1,217 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\000031}}
 body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: black; }
+  color: black;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000310}}
 h1, h2, h3, h4, h5, h6 {
   font-family: Oswald;
   font-style: normal;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000316}}
 h2 {
   font-size: 52px;
-  line-height: 115%; }
+  line-height: 115%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000321}}
 .navbar-brand, .nav-item a {
   margin-top: 40px;
-  color: white !important; }
+  color: white !important;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000326}}
 .header {
   background: url(../img/header/Rectangle.jpg) no-repeat center;
   height: 650px;
   padding: 0;
-  width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000331}}
-  .header .navbar-brand {
-    margin-right: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000335}}
-  .header a {
-    margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000339}}
-  .header .header__nav__right li:not(:first-of-type) a {
-    text-align: center;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    background: rgba(252, 252, 252, 0.4); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000347}}
-  .header .promo {
-    text-align: center;
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000353}}
-    .header .promo h1 {
-      font-size: 98px;
-      line-height: 145px;
-      color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000358}}
-    .header .promo .promo__details {
-      padding: 12px;
-      margin-top: 20px;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 19px;
-      color: white;
-      width: 170px;
-      height: 45px;
-      border: 2px solid #FCFCFC; }
+  width: 100%;
+}
+.header .navbar-brand {
+  margin-right: 50px;
+}
+.header a {
+  margin-right: 10px;
+}
+.header .header__nav__right li:not(:first-of-type) a {
+  text-align: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background: rgba(252, 252, 252, 0.4);
+}
+.header .promo {
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .promo h1 {
+  font-size: 98px;
+  line-height: 145px;
+  color: white;
+}
+.header .promo .promo__details {
+  padding: 12px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  width: 170px;
+  height: 45px;
+  border: 2px solid #FCFCFC;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000374}}
 .map {
-  padding-top: 140px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000377}}
-  .map .container h2 {
-    max-width: 472px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000380}}
-  .map .container .map__text {
-    padding-top: 50px;
-    font-size: 18px;
-    line-height: 150%;
-    max-width: 350px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000386}}
-  .map .container .map__img {
-    background: url(../img/main/map.svg) no-repeat center; }
+  padding-top: 140px;
+}
+.map .container h2 {
+  max-width: 472px;
+}
+.map .container .map__text {
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 350px;
+}
+.map .container .map__img {
+  background: url(../img/main/map.svg) no-repeat center;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000393}}
 .tours h2 {
   padding-top: 140px;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\0000398}}
+  text-align: center;
+}
 .tours .container .tours__items {
   min-width: 370px;
   min-height: 326px;
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003105}}
-  .tours .container .tours__items .mountain-info, .tours .container .tours__items .mountain-level {
-    margin-left: 40px;
-    margin-bottom: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003109}}
-  .tours .container .tours__items h5 {
-    margin-left: 40px;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 115%;
-    padding-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003116}}
-  .tours .container .tours__items .mountain-location {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003120}}
-    .tours .container .tours__items .mountain-location .tab a {
-      text-align: center;
-      border-radius: 50%;
-      width: 35px;
-      height: 35px;
-      background: rgba(252, 252, 252, 0.4); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003130}}
+  justify-content: space-between;
+}
+.tours .container .tours__items .mountain-info, .tours .container .tours__items .mountain-level {
+  margin-left: 40px;
+  margin-bottom: 24px;
+}
+.tours .container .tours__items h5 {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 115%;
+  padding-bottom: 25px;
+}
+.tours .container .tours__items .mountain-location {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.tours .container .tours__items .mountain-location .tab a {
+  text-align: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background: rgba(252, 252, 252, 0.4);
+}
 .tours .container .beluga {
-  background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/beluga.jpg) no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003135}}
+  background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/beluga.jpg) no-repeat center;
+}
 .tours .container .elbrus {
-  background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/elbrus.jpg) no-repeat center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003138}}
+  background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/elbrus.jpg) no-repeat center;
+}
 .tours .container .kilimanjaro {
-  background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/kilimanjaro.jpg) no-repeat center; }
+  background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/main/kilimanjaro.jpg) no-repeat center;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003144}}
 .table-tours {
   text-align: center;
   background: url(../img/main/Russia.jpg) no-repeat center;
   height: 757px;
   color: white;
   margin-top: 110px;
-  padding-top: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003151}}
-  .table-tours .table__table {
-    margin-top: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003153}}
-    .table-tours .table__table th {
-      color: white;
-      border-bottom: 1px solid #45545E;
-      font-size: 18px;
-      line-height: 140%;
-      color: #A7AEB4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003160}}
-    .table-tours .table__table td {
-      color: white;
-      border-bottom: 1px solid #45545E; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/code\/Mountain\/source\/scss\/style\.scss}line{font-family:\00003167}}
-  .table-tours .table__details {
-    padding: 12px;
-    margin: auto;
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-    width: 170px;
-    height: 45px;
-    border: 2px solid #FCFCFC; }
+  padding-top: 100px;
+}
+.table-tours .table__table {
+  margin-top: 60px;
+}
+.table-tours .table__table th {
+  color: white;
+  border-bottom: 1px solid #45545E;
+  font-size: 18px;
+  line-height: 140%;
+  color: #A7AEB4;
+}
+.table-tours .table__table td {
+  color: white;
+  border-bottom: 1px solid #45545E;
+}
+.table-tours .table__details {
+  padding: 12px;
+  margin: auto;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  width: 170px;
+  height: 45px;
+  border: 2px solid #FCFCFC;
+}
 
-/*# sourceMappingURL=style.css.map */
+.blog {
+  margin-top: 110px;
+}
+.blog h2 {
+  text-align: center;
+}
+.blog span {
+  font-size: 14px;
+  line-height: 140%;
+  color: #626F77;
+}
+.blog .blog__info {
+  margin-top: 80px;
+}
+.blog .blog__left ul {
+  height: 100%;
+}
+.blog .blog__left ul .list-group-item:not(:last-of-type) {
+  padding: 30px;
+  font-size: 18px;
+  line-height: 140%;
+  height: 20%;
+  border-bottom: 1px solid #061B28;
+}
+.blog .blog__left ul .list-group-item:not(:last-of-type) a {
+  color: #061B28;
+}
+.blog .blog__left ul .btn {
+  width: 100%;
+  background-color: #EC5118;
+  color: white;
+}
+.blog .blog__left span {
+  margin-top: 30px;
+}
+.blog .blog__left .list-group-item-action:hover:not(:last-of-type) {
+  background-color: #061B28;
+}
+.blog .blog__left .list-group-item-action:hover:not(:last-of-type) a {
+  color: white;
+  text-decoration: none;
+}
+.blog .blog__text {
+  margin-top: 40px;
+}
+.blog .blog__text h3 {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.blog .blog__text p {
+  font-size: 16px;
+  line-height: 150%;
+}
